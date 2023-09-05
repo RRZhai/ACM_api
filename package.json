@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "start": "node server.js",
+    "start": "npm run json-server && npm run start:dev",
     "cors": "^2.8.5",
     "json-server": "^0.17.3"
   }
